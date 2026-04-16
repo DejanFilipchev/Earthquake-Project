@@ -1,0 +1,69 @@
+.dashboard-container{
+  padding: 30px;
+  background-color: dimgray;
+}
+
+.dashboard-title{
+  text-align: center;
+  font-size: 38px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.filter-container{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn{
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+.btn-gray{
+  background-color: gray;
+  color: white;
+}
+
+.btn-delete{
+  font-size: 17px;
+  color: black;
+  background-color: red;
+  border-radius: 6px;
+}
+
+.earthquake-card{
+  border: 3px;
+  border-radius: 20px;
+  padding: 22px;
+  width: 30%;
+  min-width: 300px;
+  background-color: lightgray;
+}
+
+.earthquake-grid{
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.time-picker{
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 8px;
+}
